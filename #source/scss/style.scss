@@ -1,25 +1,30 @@
+// Color palette
+$black: #000000;
+$gray: #808080;
+
+// Page Title
 .header {
 	display: flex;
     flex-direction: column;
     align-items: center;
     h5 {
-    	color: gray;
+    	color: $gray;
     	margin-bottom: 4vh;
     }
 }
+
+// Container with cards
 .card {
 	padding: 1vw;
 	margin: 1vh 0 2vh 0;
 	.add-to-cart, .like {
 		&:hover {
-			background-color: lighten(black, 20%);
+			background-color: lighten($black, 20%);
 		}
 	}
-
 	&:hover {
-		box-shadow: 2px 2px 8px #ccc;
+		box-shadow: 2px 2px 8px $gray;
 	}
-
 	.price {
 		font-weight: bold;
 	}

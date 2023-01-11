@@ -11,7 +11,7 @@
           align-items: center;
 }
 .header h5 {
-  color: gray;
+  color: #808080;
   margin-bottom: 4vh;
 }
 
@@ -23,8 +23,8 @@
   background-color: #333333;
 }
 .card:hover {
-  -webkit-box-shadow: 2px 2px 8px #ccc;
-          box-shadow: 2px 2px 8px #ccc;
+  -webkit-box-shadow: 2px 2px 8px #808080;
+          box-shadow: 2px 2px 8px #808080;
 }
 .card .price {
   font-weight: bold;
