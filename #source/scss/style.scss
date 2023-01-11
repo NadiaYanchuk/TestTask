@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    h5 {
+    	color: gray;
+    	margin-bottom: 4vh;
+    }
+}
+.card {
+	padding: 1vw;
+	margin: 1vh 0 2vh 0;
+	.add-to-cart, .like {
+		&:hover {
+			background-color: lighten(black, 20%);
+		}
+	}
+
+	&:hover {
+		box-shadow: 2px 2px 8px #ccc;
+	}
+
+	.price {
+		font-weight: bold;
+	}
+}
